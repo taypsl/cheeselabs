@@ -1,0 +1,30 @@
+body {
+	background-color: #21bbd1; /* blue */
+	/* background-color: #e75937; /* orange */
+	font-family: sans-serif;
+}
+
+.loading-wrapper {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.loading-cheese {
+	height: 100px;
+	width: 150px;
+	background-image: url('images/SVG/logo-white.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.loading-text {
+	color: white;
+	font-size: 1.2em;
+}
+
